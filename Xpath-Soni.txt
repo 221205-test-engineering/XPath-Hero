@@ -1,0 +1,39 @@
+  GNU nano 5.6.1                      New Buffer                      Modified
+1. Seltect all tds that have money sign in them
+//td[contains(text(), "$")]
+
+2. Get the first tr in the tbody
+//tbody//tr[1]
+
+3. Get the last tr in the tbody
+//tbody//tr[last()]
+
+4. Get all the tds where the id is between 200 and 300
+//td[@id="202"]
+
+Hi Score
+
+1. Get the li that contains TIM's Dig Dug
+//li[text()[contains(.,'TIM')]]
+
+2. Get the list items that belong to YVN or GAR
+//li[text()[contains(.,"YVN")] or contains(.,"GAR")]
+3. Get the total amount of li in the document
+//ul[count(li)=1]
+
+Sales Report
+1. Select only the second table
+//table[2]
+
+2. Select all trs where the attribute data-leader="Margaret"
+//tr[@data-leader="Margaret"]
+
+3.Select all the tds containing the sales where Westerview Middle was the
+troop
+//td[contains(text(),"Westview Middle")]
+
+4. Select the last tr of Thin Mints in the first half
+//td[contains(text(),"Thin Mints")][last()]
+
+
+
