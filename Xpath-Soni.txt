@@ -30,12 +30,12 @@ Sales Report
 2. Select all trs where the attribute data-leader="Margaret"
 //tr[@data-leader="Margaret"]
 
-3.Select all the tds containing the sales where Westerview Middle was the
+3.Select all the tds containing the sales where Westview Middle was the
 troop
 //td[contains(text(),"Westview Middle")]
 
 4. Select the last tr of Thin Mints in the first half
-//td[contains(text(),"Thin Mints") and position()=6]
+//div[position()=1]/table/tbody/tr[position()=7]
 
 
 
