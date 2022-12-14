@@ -1,4 +1,6 @@
-  GNU nano 5.6.1                      New Buffer                      Modified
+  
+Employee Overview
+
 1. Seltect all tds that have money sign in them
 //td[contains(text(), "$")]
 
@@ -9,7 +11,7 @@
 //tbody//tr[last()]
 
 4. Get all the tds where the id is between 200 and 300
-//td[@id="202"]
+//td[@id="202" or @id = "203"]
 
 Hi Score
 
@@ -33,7 +35,7 @@ troop
 //td[contains(text(),"Westview Middle")]
 
 4. Select the last tr of Thin Mints in the first half
-//td[contains(text(),"Thin Mints")][last()]
+//td[contains(text(),"Thin Mints") and position()=6]
 
 
 
