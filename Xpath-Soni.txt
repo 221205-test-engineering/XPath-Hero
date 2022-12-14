@@ -20,8 +20,9 @@ Hi Score
 
 2. Get the list items that belong to YVN or GAR
 //li[text()[contains(.,"YVN")] or contains(.,"GAR")]
+
 3. Get the total amount of li in the document
-//ul[count(li)=1]
+ count(//li)
 
 Sales Report
 1. Select only the second table
